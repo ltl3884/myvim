@@ -1,4 +1,4 @@
-cd /home/liutianlin/work_git/TigerReport/
+cd ~/Work
 " 设置用于GUI图形用户界面的字体列表。
 set guifont=SimSun\ 10
 set nocompatible
@@ -12,7 +12,7 @@ set fenc=utf-8
 " 设置文件编码检测类型及支持格式
 set fencs=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
 " 设置字体
-set guifont=Bitstream\ Vera\ Sans\ Mono\ 12 
+set guifont=Menlo:h16
 " 指定菜单语言
 set langmenu=zh_CN.UTF-8
 source $VIMRUNTIME/delmenu.vim
@@ -45,10 +45,9 @@ set cmdheight=1
 "NERD_tree
 nmap <F3> :NERDTree <CR>
 nmap <F4> :NERDTreeClose <CR>
-:filetype plugin on
-"google translate
-let g:langpair="en" 
-let g:vtranslate="T" 
+" :filetype plugin on
+filetype off
+filetype plugin indent on
 " 中文帮助
 if version > 603
 set helplang=cn

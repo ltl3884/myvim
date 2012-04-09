@@ -1,3 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/home/liutianlin/work/TigerReport/db/migrate'
+let g:netrw_dirhist_2='/usr/share/vim/vim73/doc'
+let g:netrw_dirhist_3='/Users/liutl/work/pecker'
+let g:netrw_dirhist_4='/Users/liutl/work/tigerreport'
+let g:netrw_dirhist_5='/Users/liutl/work/squirrel'
