@@ -45,9 +45,9 @@ set cmdheight=1
 "NERD_tree
 nmap <F3> :NERDTree <CR>
 nmap <F4> :NERDTreeClose <CR>
-" :filetype plugin on
-filetype off
-filetype plugin indent on
+:filetype plugin on
+"filetype off
+"filetype plugin indent on
 " 中文帮助
 if version > 603
 set helplang=cn
