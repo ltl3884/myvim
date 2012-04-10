@@ -49,6 +49,9 @@ nmap <F4> :NERDTreeClose <CR>
 "filetype off
 "filetype plugin indent on
 " 中文帮助
+if has("autocmd")
+  filetype indent on
+endif
 if version > 603
 set helplang=cn
 endi
